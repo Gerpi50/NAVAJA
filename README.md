@@ -152,10 +152,41 @@ class MiMotor(BaseMotor):
 Después se registra en `main.py` con `graph.register(MiMotor)`. El grafo lo suma a las
 rutas posibles y la interfaz muestra los formatos nuevos sin tocar nada más.
 
+## ⚠️ Sin garantía
+
+Navaja se ofrece **tal cual**, sin garantía de ningún tipo, ni siquiera la de que sirva
+para un fin determinado. Quien lo usa lo hace bajo su propia responsabilidad: hacé
+siempre copia de tus archivos importantes. (Ver las secciones 15 y 16 de la
+[licencia](LICENSE).)
+
+## 🙏 Créditos y software de terceros
+
+Navaja no incluye código de otros proyectos: los usa como dependencias que se instalan
+aparte, cada una con su propia licencia y sus propios autores.
+
+| Proyecto | Para qué se usa | Licencia |
+|---|---|---|
+| [PyQt6](https://www.riverbankcomputing.com/software/pyqt/) | Interfaz gráfica | GPL-3.0 |
+| [PyMuPDF](https://github.com/pymupdf/PyMuPDF) | Leer, dibujar y editar PDF | AGPL-3.0 |
+| [pypdf](https://github.com/py-pdf/pypdf) | Unir y partir PDF | BSD-3-Clause |
+| [pdfplumber](https://github.com/jsvine/pdfplumber) | Tablas de PDF a Excel | MIT |
+| [pdf2docx](https://github.com/ArtifexSoftware/pdf2docx) | PDF a Word | AGPL-3.0 |
+| [pyHanko](https://github.com/MatthiasValvekens/pyHanko) | Firma digital PAdES | MIT |
+| [Pillow](https://python-pillow.org) | Imágenes | MIT-CMU |
+| [ReportLab](https://www.reportlab.com) | Generar PDF | BSD |
+| [pandas](https://pandas.pydata.org) | Datos y planillas | BSD-3-Clause |
+| [Whisper](https://github.com/openai/whisper) (opcional) | Transcripción | MIT |
+| [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (opcional) | Reconocer quién habla | Apache-2.0 |
+
+Y las herramientas externas, que **no** están en este repositorio y se instalan por
+separado: [FFmpeg](https://ffmpeg.org) (LGPL/GPL), [Pandoc](https://pandoc.org) (GPL),
+[Tesseract](https://github.com/tesseract-ocr/tesseract) (Apache-2.0) y
+[LibreOffice](https://www.libreoffice.org) (MPL-2.0).
+
+La lista completa de dependencias está en [requirements.txt](requirements.txt).
+
 ## 📄 Licencia
 
-Navaja se distribuye bajo la licencia **GNU GPL-3.0**: ver [LICENSE](LICENSE).
-
-Usa, entre otros, PyQt6 (GPL-3.0), PyMuPDF (AGPL-3.0), pyHanko (MIT) y Whisper (MIT).
-Las herramientas externas (FFmpeg, Pandoc, Tesseract, LibreOffice) tienen sus propias
-licencias y no se incluyen en este repositorio.
+Navaja es software libre: se distribuye bajo la licencia **GNU GPL-3.0** (ver
+[LICENSE](LICENSE)). Podés usarlo, estudiarlo, modificarlo y compartirlo; si
+distribuís una versión modificada, tiene que seguir siendo libre y con su código.

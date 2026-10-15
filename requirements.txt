@@ -1,0 +1,61 @@
+# requirements.txt — Dependencias de Navaja
+#
+#   pip install -r requirements.txt
+#
+# Las herramientas externas (FFmpeg, Pandoc, Tesseract, LibreOffice) no son
+# paquetes de Python: ver la sección «Herramientas externas» del README.
+
+# ── Interfaz ──────────────────────────────────────────────────────────
+PyQt6>=6.6
+qtawesome
+darkdetect
+
+# ── Núcleo de conversión ─────────────────────────────────────────────
+Pillow
+reportlab
+pypdf
+PyMuPDF                 # fitz: render de PDF, SVG/AI, organizador de páginas
+pdfplumber              # PDF → Excel: lectura de tablas
+python-docx
+openpyxl
+xlrd>=2.0.1             # .xls viejos
+python-pptx
+extract-msg             # correos .msg de Outlook
+markdown
+chardet
+pandas
+pyarrow                 # parquet
+PyYAML
+toml
+tomli-w
+lxml
+
+# ── Windows: Microsoft Office por COM (opcional) ─────────────────────
+comtypes; sys_platform == "win32"
+pywin32; sys_platform == "win32"
+
+# ── OCR ──────────────────────────────────────────────────────────────
+pytesseract             # requiere Tesseract (en bin/tesseract o en el PATH)
+
+# ── Formatos extra ───────────────────────────────────────────────────
+pdf2docx                # PDF → DOCX con diseño
+py7zr                   # 7z
+rarfile                 # RAR (requiere UnRAR en el sistema)
+rawpy                   # DNG/RAW
+brotli                  # WOFF2
+markdownify             # HTML → MD
+docutils                # RST
+mobi                    # MOBI/AZW3 → EPUB
+fontTools               # fuentes TTF/OTF/WOFF
+
+# ── Firma digital ────────────────────────────────────────────────────
+pyhanko[pkcs11]         # PAdES: certificado .pfx/.p12 o token USB
+
+# ── Opcionales ───────────────────────────────────────────────────────
+pillow-heif             # HEIC/AVIF
+# cairosvg              # SVG por Cairo (requiere libcairo; PyMuPDF lo suple)
+
+# ── Transcripción y reconocimiento de voces (opcional, pesado) ───────
+# openai-whisper
+# torch --index-url https://download.pytorch.org/whl/cpu
+# sherpa-onnx

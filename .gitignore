@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+venv_build/
+
+# Empaquetado (PyInstaller)
+build/
+dist/
+
+# Lo que el programa crea al usarlo
+logs/
+temp/
+config.json
+runtime_caps.json
+PROCESADO CON */
+
+# Binarios y modelos: no van al repositorio (ver README)
+bin/
+models/
+
+# Editor / sistema
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
+.DS_Store

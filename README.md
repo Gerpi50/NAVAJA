@@ -58,7 +58,7 @@ resultados, listo para copiar y pegar. Los originales nunca se modifican.
 Requiere **Python 3.10 o superior** en Windows.
 
 ```bash
-git clone https://github.com/<tu-usuario>/navaja.git
+git clone https://github.com/Gerpi50/navaja.git
 cd navaja
 python -m venv .venv
 .venv\Scripts\activate
@@ -186,6 +186,8 @@ separado: [FFmpeg](https://ffmpeg.org) (LGPL/GPL), [Pandoc](https://pandoc.org) 
 La lista completa de dependencias está en [requirements.txt](requirements.txt).
 
 ## 📄 Licencia
+
+Copyright © 2026 [Gerpi50](https://github.com/Gerpi50)
 
 Navaja es software libre: se distribuye bajo la licencia **GNU GPL-3.0** (ver
 [LICENSE](LICENSE)). Podés usarlo, estudiarlo, modificarlo y compartirlo; si

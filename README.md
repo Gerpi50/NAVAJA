@@ -26,7 +26,7 @@ Está pensado para quien **no sabe de informática**: la pantalla de inicio preg
 **sin conexión**: ningún archivo sale de la computadora.
 
 > 🇬🇧 **English:** Navaja is an offline, all-in-one file toolkit for Windows (PyQt6).
-> It converts between 100+ formats with automatic multi-step routing, and includes PDF
+> It reads 100+ file extensions with automatic multi-step routing, and includes PDF
 > tools (merge, split, OCR, digital signing with PFX or USB tokens, PDF→Excel tables),
 > audio/video tools (split, merge, compress to a size limit, frame capture, noise
 > reduction, Whisper transcription) and SHA-256/SHA-512 integrity checks. The UI is in
@@ -38,7 +38,7 @@ Está pensado para quien **no sabe de informática**: la pantalla de inicio preg
 
 | Módulo | Herramientas |
 |---|---|
-| 🔄 **Convertir** | Más de 100 formatos de entrada (imágenes, audio, video, documentos, datos, correos, e-books, fuentes, subtítulos, comprimidos). Si no hay conversión directa, encuentra sola la cadena más corta: `HEIC → PNG → SVG`. Solo muestra los formatos a los que se puede llegar. |
+| 🔄 **Convertir** | Lee más de 100 extensiones de archivo (imágenes, audio, video, documentos, datos, correos, e-books, fuentes, subtítulos, comprimidos) y escribe más de 90. Si no hay conversión directa, encuentra sola la cadena más corta: `HEIC → PNG → SVG`. Solo muestra los formatos a los que se puede llegar con lo que hay instalado (audio y video necesitan FFmpeg; Word, Excel y PowerPoint, LibreOffice u Office). |
 | 📄 **PDF** | Unir · Partir por tamaño o por páginas · Ajustar una carpeta a un límite de tamaño (en tandas) · Separar hojas escaneadas de a dos · Reordenar, rotar y sacar páginas · **Firma digital PAdES** con certificado `.pfx`/`.p12` o **token USB** (PKCS#11, detecta la marca) · OCR · Pasar a Excel la tabla de un PDF · Comprimir, proteger y reparar |
 | 🎵 **Audio** | Cortar · Unir · Mejorar un audio que se oye mal (ruido, voz baja) · **Transcribir** con Whisper, tramo por tramo y con quién habla |
 | 🎬 **Video** | Partir sin pérdida · Ajustar a un tamaño máximo · Mapa del video (toda la grabación en una imagen) · Capturar el fotograma exacto · Mejorar el audio · Transcribir |

@@ -1,7 +1,7 @@
 """
 ui/pdf_excel_panel.py — «Pasar a Excel»: la tabla de un PDF, a una planilla.
 
-Es el preparador del programa «PDF a Excel -GP», metido dentro del módulo PDF
+Es el preparador visual de tablas (PDF a Excel), metido dentro del módulo PDF
 como una solapa más. Su código está en el paquete `pdf_excel/` y acá sólo se
 lo acomoda dentro de la solapa:
 

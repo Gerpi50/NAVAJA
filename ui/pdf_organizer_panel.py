@@ -584,7 +584,7 @@ class PdfOrganizerPanel(QWidget):
     # TAB: Pasar a Excel
     #
     # La tabla de un PDF (un resumen bancario, un listado) a una planilla.
-    # Es el preparador del programa «PDF a Excel -GP»: ver ui/pdf_excel_panel.
+    # Es el preparador visual de tablas: ver ui/pdf_excel_panel.
     # ──────────────────────────────────────────────────────────────────
 
     def _build_excel_tab(self) -> QWidget:

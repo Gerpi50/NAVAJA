@@ -1,1 +1,1 @@
-"""PDF a Excel — el preparador de tablas del programa «PDF a Excel -GP»."""
+"""PDF a Excel — el preparador visual para pasar tablas de PDF a Excel."""

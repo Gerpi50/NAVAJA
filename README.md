@@ -192,3 +192,7 @@ Copyright © 2026 [Gerpi50](https://github.com/Gerpi50)
 Navaja es software libre: se distribuye bajo la licencia **GNU GPL-3.0** (ver
 [LICENSE](LICENSE)). Podés usarlo, estudiarlo, modificarlo y compartirlo; si
 distribuís una versión modificada, tiene que seguir siendo libre y con su código.
+
+---
+
+<p align="center">🤖 Desarrollado con ayuda de <a href="https://claude.com/claude-code">Claude Code</a>.</p>
